@@ -1,0 +1,559 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-15T15:41:18.882905+00:00",
+  "title": "Design System: Maybe · 未定设计室",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "暖奶油画布",
+        "tonalRamp": [
+          "oklch(0.1500 0.0067 97.35)",
+          "oklch(0.2643 0.0067 97.35)",
+          "oklch(0.3786 0.0067 97.35)",
+          "oklch(0.4929 0.0067 97.35)",
+          "oklch(0.6071 0.0067 97.35)",
+          "oklch(0.7214 0.0067 97.35)",
+          "oklch(0.8357 0.0067 97.35)",
+          "oklch(0.9500 0.0067 97.35)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "画纸白",
+        "tonalRamp": [
+          "oklch(0.1500 0.0041 91.45)",
+          "oklch(0.2643 0.0041 91.45)",
+          "oklch(0.3786 0.0041 91.45)",
+          "oklch(0.4929 0.0041 91.45)",
+          "oklch(0.6071 0.0041 91.45)",
+          "oklch(0.7214 0.0041 91.45)",
+          "oklch(0.8357 0.0041 91.45)",
+          "oklch(0.9500 0.0041 91.45)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "梅灰正文",
+        "tonalRamp": [
+          "oklch(0.1500 0.0235 314.48)",
+          "oklch(0.2643 0.0235 314.48)",
+          "oklch(0.3786 0.0235 314.48)",
+          "oklch(0.4929 0.0235 314.48)",
+          "oklch(0.6071 0.0235 314.48)",
+          "oklch(0.7214 0.0235 314.48)",
+          "oklch(0.8357 0.0235 314.48)",
+          "oklch(0.9500 0.0235 314.48)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "暖灰次级字",
+        "tonalRamp": [
+          "oklch(0.1500 0.0081 39.42)",
+          "oklch(0.2643 0.0081 39.42)",
+          "oklch(0.3786 0.0081 39.42)",
+          "oklch(0.4929 0.0081 39.42)",
+          "oklch(0.6071 0.0081 39.42)",
+          "oklch(0.7214 0.0081 39.42)",
+          "oklch(0.8357 0.0081 39.42)",
+          "oklch(0.9500 0.0081 39.42)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "纸边灰",
+        "tonalRamp": [
+          "oklch(0.1500 0.0128 86.83)",
+          "oklch(0.2643 0.0128 86.83)",
+          "oklch(0.3786 0.0128 86.83)",
+          "oklch(0.4929 0.0128 86.83)",
+          "oklch(0.6071 0.0128 86.83)",
+          "oklch(0.7214 0.0128 86.83)",
+          "oklch(0.8357 0.0128 86.83)",
+          "oklch(0.9500 0.0128 86.83)"
+        ]
+      },
+      "purple": {
+        "role": "primary",
+        "displayName": "深李子紫",
+        "tonalRamp": [
+          "oklch(0.1500 0.0726 311.47)",
+          "oklch(0.2643 0.0726 311.47)",
+          "oklch(0.3786 0.0726 311.47)",
+          "oklch(0.4929 0.0726 311.47)",
+          "oklch(0.6071 0.0726 311.47)",
+          "oklch(0.7214 0.0726 311.47)",
+          "oklch(0.8357 0.0726 311.47)",
+          "oklch(0.9500 0.0726 311.47)"
+        ]
+      },
+      "lavender": {
+        "role": "primary",
+        "displayName": "浅丁香紫",
+        "tonalRamp": [
+          "oklch(0.1500 0.0217 309.55)",
+          "oklch(0.2643 0.0217 309.55)",
+          "oklch(0.3786 0.0217 309.55)",
+          "oklch(0.4929 0.0217 309.55)",
+          "oklch(0.6071 0.0217 309.55)",
+          "oklch(0.7214 0.0217 309.55)",
+          "oklch(0.8357 0.0217 309.55)",
+          "oklch(0.9500 0.0217 309.55)"
+        ]
+      },
+      "orange": {
+        "role": "secondary",
+        "displayName": "珊瑚标点",
+        "tonalRamp": [
+          "oklch(0.1500 0.1544 37.68)",
+          "oklch(0.2643 0.1544 37.68)",
+          "oklch(0.3786 0.1544 37.68)",
+          "oklch(0.4929 0.1544 37.68)",
+          "oklch(0.6071 0.1544 37.68)",
+          "oklch(0.7214 0.1544 37.68)",
+          "oklch(0.8357 0.1544 37.68)",
+          "oklch(0.9500 0.1544 37.68)"
+        ]
+      },
+      "yellow": {
+        "role": "tertiary",
+        "displayName": "伙伴蛋黄",
+        "tonalRamp": [
+          "oklch(0.1500 0.1126 94.19)",
+          "oklch(0.2643 0.1126 94.19)",
+          "oklch(0.3786 0.1126 94.19)",
+          "oklch(0.4929 0.1126 94.19)",
+          "oklch(0.6071 0.1126 94.19)",
+          "oklch(0.7214 0.1126 94.19)",
+          "oklch(0.8357 0.1126 94.19)",
+          "oklch(0.9500 0.1126 94.19)"
+        ]
+      },
+      "focus-ring": {
+        "role": "primary",
+        "displayName": "紫藤焦点",
+        "tonalRamp": [
+          "oklch(0.1500 0.0811 310.94)",
+          "oklch(0.2643 0.0811 310.94)",
+          "oklch(0.3786 0.0811 310.94)",
+          "oklch(0.4929 0.0811 310.94)",
+          "oklch(0.6071 0.0811 310.94)",
+          "oklch(0.7214 0.0811 310.94)",
+          "oklch(0.8357 0.0811 310.94)",
+          "oklch(0.9500 0.0811 310.94)"
+        ]
+      },
+      "secondary-ink": {
+        "role": "neutral",
+        "displayName": "纸面注释灰紫",
+        "tonalRamp": [
+          "oklch(0.1500 0.0184 328.96)",
+          "oklch(0.2643 0.0184 328.96)",
+          "oklch(0.3786 0.0184 328.96)",
+          "oklch(0.4929 0.0184 328.96)",
+          "oklch(0.6071 0.0184 328.96)",
+          "oklch(0.7214 0.0184 328.96)",
+          "oklch(0.8357 0.0184 328.96)",
+          "oklch(0.9500 0.0184 328.96)"
+        ]
+      },
+      "metadata-ink": {
+        "role": "neutral",
+        "displayName": "对话元信息灰紫",
+        "tonalRamp": [
+          "oklch(0.1500 0.0239 321.03)",
+          "oklch(0.2643 0.0239 321.03)",
+          "oklch(0.3786 0.0239 321.03)",
+          "oklch(0.4929 0.0239 321.03)",
+          "oklch(0.6071 0.0239 321.03)",
+          "oklch(0.7214 0.0239 321.03)",
+          "oklch(0.8357 0.0239 321.03)",
+          "oklch(0.9500 0.0239 321.03)"
+        ]
+      },
+      "button-text": {
+        "role": "neutral",
+        "displayName": "按钮纯白",
+        "tonalRamp": [
+          "oklch(0.1500 0.0000 89.88)",
+          "oklch(0.2643 0.0000 89.88)",
+          "oklch(0.3786 0.0000 89.88)",
+          "oklch(0.4929 0.0000 89.88)",
+          "oklch(0.6071 0.0000 89.88)",
+          "oklch(0.7214 0.0000 89.88)",
+          "oklch(0.8357 0.0000 89.88)",
+          "oklch(0.9500 0.0000 89.88)"
+        ]
+      },
+      "poster-paper": {
+        "role": "neutral",
+        "displayName": "旧杂志纸",
+        "tonalRamp": [
+          "oklch(0.1500 0.0367 86.17)",
+          "oklch(0.2643 0.0367 86.17)",
+          "oklch(0.3786 0.0367 86.17)",
+          "oklch(0.4929 0.0367 86.17)",
+          "oklch(0.6071 0.0367 86.17)",
+          "oklch(0.7214 0.0367 86.17)",
+          "oklch(0.8357 0.0367 86.17)",
+          "oklch(0.9500 0.0367 86.17)"
+        ]
+      },
+      "poster-burgundy": {
+        "role": "secondary",
+        "displayName": "旧刊酒红",
+        "tonalRamp": [
+          "oklch(0.1500 0.1067 20.59)",
+          "oklch(0.2643 0.1067 20.59)",
+          "oklch(0.3786 0.1067 20.59)",
+          "oklch(0.4929 0.1067 20.59)",
+          "oklch(0.6071 0.1067 20.59)",
+          "oklch(0.7214 0.1067 20.59)",
+          "oklch(0.8357 0.1067 20.59)",
+          "oklch(0.9500 0.1067 20.59)"
+        ]
+      },
+      "poster-terracotta": {
+        "role": "secondary",
+        "displayName": "陶土拱门",
+        "tonalRamp": [
+          "oklch(0.1500 0.1348 37.01)",
+          "oklch(0.2643 0.1348 37.01)",
+          "oklch(0.3786 0.1348 37.01)",
+          "oklch(0.4929 0.1348 37.01)",
+          "oklch(0.6071 0.1348 37.01)",
+          "oklch(0.7214 0.1348 37.01)",
+          "oklch(0.8357 0.1348 37.01)",
+          "oklch(0.9500 0.1348 37.01)"
+        ]
+      },
+      "poster-coral": {
+        "role": "secondary",
+        "displayName": "喧闹珊瑚",
+        "tonalRamp": [
+          "oklch(0.1500 0.1571 37.81)",
+          "oklch(0.2643 0.1571 37.81)",
+          "oklch(0.3786 0.1571 37.81)",
+          "oklch(0.4929 0.1571 37.81)",
+          "oklch(0.6071 0.1571 37.81)",
+          "oklch(0.7214 0.1571 37.81)",
+          "oklch(0.8357 0.1571 37.81)",
+          "oklch(0.9500 0.1571 37.81)"
+        ]
+      },
+      "poster-indigo": {
+        "role": "secondary",
+        "displayName": "海报深靛",
+        "tonalRamp": [
+          "oklch(0.1500 0.0707 289.11)",
+          "oklch(0.2643 0.0707 289.11)",
+          "oklch(0.3786 0.0707 289.11)",
+          "oklch(0.4929 0.0707 289.11)",
+          "oklch(0.6071 0.0707 289.11)",
+          "oklch(0.7214 0.0707 289.11)",
+          "oklch(0.8357 0.0707 289.11)",
+          "oklch(0.9500 0.0707 289.11)"
+        ]
+      },
+      "poster-cream": {
+        "role": "tertiary",
+        "displayName": "晒暖的奶黄",
+        "tonalRamp": [
+          "oklch(0.1500 0.0634 87.27)",
+          "oklch(0.2643 0.0634 87.27)",
+          "oklch(0.3786 0.0634 87.27)",
+          "oklch(0.4929 0.0634 87.27)",
+          "oklch(0.6071 0.0634 87.27)",
+          "oklch(0.7214 0.0634 87.27)",
+          "oklch(0.8357 0.0634 87.27)",
+          "oklch(0.9500 0.0634 87.27)"
+        ]
+      },
+      "poster-sage": {
+        "role": "tertiary",
+        "displayName": "夏日鼠尾草",
+        "tonalRamp": [
+          "oklch(0.1500 0.0360 133.56)",
+          "oklch(0.2643 0.0360 133.56)",
+          "oklch(0.3786 0.0360 133.56)",
+          "oklch(0.4929 0.0360 133.56)",
+          "oklch(0.6071 0.0360 133.56)",
+          "oklch(0.7214 0.0360 133.56)",
+          "oklch(0.8357 0.0360 133.56)",
+          "oklch(0.9500 0.0360 133.56)"
+        ]
+      },
+      "poster-teal": {
+        "role": "tertiary",
+        "displayName": "深叶青",
+        "tonalRamp": [
+          "oklch(0.1500 0.0485 205.29)",
+          "oklch(0.2643 0.0485 205.29)",
+          "oklch(0.3786 0.0485 205.29)",
+          "oklch(0.4929 0.0485 205.29)",
+          "oklch(0.6071 0.0485 205.29)",
+          "oklch(0.7214 0.0485 205.29)",
+          "oklch(0.8357 0.0485 205.29)",
+          "oklch(0.9500 0.0485 205.29)"
+        ]
+      },
+      "poster-sun": {
+        "role": "tertiary",
+        "displayName": "夏日浅黄",
+        "tonalRamp": [
+          "oklch(0.1500 0.1179 94.33)",
+          "oklch(0.2643 0.1179 94.33)",
+          "oklch(0.3786 0.1179 94.33)",
+          "oklch(0.4929 0.1179 94.33)",
+          "oklch(0.6071 0.1179 94.33)",
+          "oklch(0.7214 0.1179 94.33)",
+          "oklch(0.8357 0.1179 94.33)",
+          "oklch(0.9500 0.1179 94.33)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "brand": {
+        "displayName": "brand",
+        "purpose": "字标：自托管 Fraunces，系统无衬线用于中文副标。"
+      },
+      "display": {
+        "displayName": "display",
+        "purpose": "主画布中文标题，尺寸随断点变化。"
+      },
+      "headline": {
+        "displayName": "headline",
+        "purpose": "意图轨迹标题。"
+      },
+      "companion-title": {
+        "displayName": "companion-title",
+        "purpose": "小未名字与品牌表情。"
+      },
+      "body": {
+        "displayName": "body",
+        "purpose": "页面默认中文基础文字。"
+      },
+      "conversation": {
+        "displayName": "conversation",
+        "purpose": "最终级联中的对话正文。"
+      },
+      "label": {
+        "displayName": "label",
+        "purpose": "紧凑的状态及辅助标签。"
+      },
+      "question": {
+        "displayName": "question",
+        "purpose": "夸张问号，不替代解释文字。"
+      }
+    },
+    "shadows": [
+      {
+        "name": "poster-paper",
+        "value": "0 5px 16px #50413113",
+        "purpose": "薄纸悬浮，始终保留。"
+      },
+      {
+        "name": "prompt-focus",
+        "value": "0 2px 14px #694b7f13",
+        "purpose": "输入容器聚焦。"
+      },
+      {
+        "name": "toast",
+        "value": "0 8px 30px #38243b22",
+        "purpose": "短暂状态反馈。"
+      },
+      {
+        "name": "dialog",
+        "value": "0 20px 80px #352c3a22",
+        "purpose": "确认重置的模态层。"
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "共用轻弹性缓动，对应 --ease。"
+      },
+      {
+        "name": "control-color",
+        "value": "180ms",
+        "purpose": "常规颜色状态。"
+      },
+      {
+        "name": "control-transform",
+        "value": "200ms",
+        "purpose": "常规操作的位移。"
+      },
+      {
+        "name": "poster-hover",
+        "value": "400ms",
+        "purpose": "海报扶正并上移 8px。"
+      },
+      {
+        "name": "poster-deal",
+        "value": "700ms; stagger 90ms / 180ms",
+        "purpose": "新草案入场。"
+      },
+      {
+        "name": "message-in",
+        "value": "400ms",
+        "purpose": "新消息上移 7px 淡入。"
+      },
+      {
+        "name": "typing",
+        "value": "1000ms infinite; stagger 150ms / 300ms",
+        "purpose": "脚本等待点；状态文案同时保留。"
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation:none; transition:none; scroll-behavior:auto",
+        "purpose": "prefers-reduced-motion:reduce 全局覆盖。"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1550px"
+      },
+      {
+        "name": "compact-max",
+        "value": "1190px"
+      },
+      {
+        "name": "narrow-max",
+        "value": "950px"
+      },
+      {
+        "name": "stack-max",
+        "value": "760px"
+      },
+      {
+        "name": "small-max",
+        "value": "390px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "从已实现按钮样式提取，支持悬停、键盘焦点、按下及禁用状态。",
+      "html": "<button class=\"ds-primary\">带走灵感</button>",
+      "css": ".ds-primary{font:13px/1.6 var(--font,\"PingFang SC\",\"Microsoft YaHei\",sans-serif);display:inline-flex;align-items:center;gap:9px;border:0;cursor:pointer;background:var(--purple,#5b426b);color:#fff;padding:11px 17px;border-radius:10px;transition:background .18s,color .18s,transform .2s var(--ease,cubic-bezier(.16,1,.3,1));}.ds-primary:hover:not(:disabled){filter:brightness(.97)}.ds-primary:focus-visible{outline:3px solid var(--focus-ring,#a385b8);outline-offset:4px;}.ds-primary:active:not(:disabled){transform:translateY(1px)}.ds-primary:disabled{cursor:wait;opacity:.5}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}"
+    },
+    {
+      "name": "Soft return",
+      "kind": "button",
+      "refersTo": "button-soft",
+      "description": "从已实现按钮样式提取，支持悬停、键盘焦点、按下及禁用状态。",
+      "html": "<button class=\"ds-soft\">回到创作现场</button>",
+      "css": ".ds-soft{font:13px/1.6 var(--font,\"PingFang SC\",\"Microsoft YaHei\",sans-serif);display:inline-flex;align-items:center;gap:9px;border:0;cursor:pointer;background:var(--lavender,#eee6f5);color:var(--purple,#5b426b);padding:11px 17px;border-radius:9px;transition:background .18s,color .18s,transform .2s var(--ease,cubic-bezier(.16,1,.3,1));}.ds-soft:hover:not(:disabled){filter:brightness(.97)}.ds-soft:focus-visible{outline:3px solid var(--focus-ring,#a385b8);outline-offset:4px;}.ds-soft:active:not(:disabled){transform:translateY(1px)}.ds-soft:disabled{cursor:wait;opacity:.5}@media(prefers-reduced-motion:reduce){.ds-soft{transition:none}}"
+    },
+    {
+      "name": "Quiet action",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "从已实现按钮样式提取，支持悬停、键盘焦点、按下及禁用状态。",
+      "html": "<button class=\"ds-quiet\">怎么玩</button>",
+      "css": ".ds-quiet{font:13px/1.6 var(--font,\"PingFang SC\",\"Microsoft YaHei\",sans-serif);display:inline-flex;align-items:center;gap:9px;border:0;cursor:pointer;background:transparent;color:var(--ink,#39313d);padding:8px;border-radius:0;transition:background .18s,color .18s,transform .2s var(--ease,cubic-bezier(.16,1,.3,1));}.ds-quiet:hover:not(:disabled){filter:brightness(.97)}.ds-quiet:focus-visible{outline:3px solid var(--focus-ring,#a385b8);outline-offset:4px;}.ds-quiet:active:not(:disabled){transform:translateY(1px)}.ds-quiet:disabled{cursor:wait;opacity:.5}@media(prefers-reduced-motion:reduce){.ds-quiet{transition:none}}"
+    },
+    {
+      "name": "Prompt note",
+      "kind": "input",
+      "refersTo": "prompt-form",
+      "description": "便签式输入；容器承担聚焦状态，发送按钮保留独立焦点。",
+      "html": "<form class=\"ds-prompt\"><label class=\"ds-prompt-label\" for=\"ds-idea\">你的创作想法</label><textarea id=\"ds-idea\" class=\"ds-textarea\" rows=\"3\" maxlength=\"240\" placeholder=\"说点什么，没想清楚也可以…\"></textarea><div class=\"ds-input-footer\"><span>改主意，也是一种进展</span><button class=\"ds-send\" type=\"button\" aria-label=\"发送想法\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 19V5M6 11l6-6 6 6\"/></svg></button></div></form>",
+      "css": ".ds-prompt{width:280px;max-width:100%;border:1px solid #c9b9d1;padding:12px 12px 9px;border-radius:13px;background:var(--white,#fffefb);transition:box-shadow .2s}.ds-prompt:focus-within{box-shadow:0 2px 14px #694b7f13;border-color:#8c6b9e}.ds-prompt-label{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.ds-textarea{font:12px/1.8 var(--font,\"PingFang SC\",\"Microsoft YaHei\",sans-serif);width:100%;border:0;outline:none;resize:vertical;min-height:57px;max-height:180px;background:transparent;color:var(--ink,#39313d);caret-color:var(--purple,#5b426b)}.ds-textarea::placeholder{color:#746878}.ds-input-footer{display:flex;align-items:center;justify-content:space-between;font:9px/1.6 var(--font,\"PingFang SC\",\"Microsoft YaHei\",sans-serif);color:#776c79;padding-top:2px}.ds-send{display:grid;place-items:center;width:29px;height:29px;border:0;border-radius:50%;background:var(--purple,#5b426b);color:white;cursor:pointer}.ds-send svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.ds-send:hover{filter:brightness(.97)}.ds-send:focus-visible{outline:3px solid var(--focus-ring,#a385b8);outline-offset:4px;}.ds-send:active{transform:translateY(1px)}.ds-send:disabled{opacity:.5;cursor:wait}@media(prefers-reduced-motion:reduce){.ds-prompt{transition:none}}"
+    },
+    {
+      "name": "Workspace tabs",
+      "kind": "nav",
+      "refersTo": "view-tab-selected",
+      "description": "选中文字与底线；示例呈现视觉状态，应用内另有方向键切换。",
+      "html": "<nav class=\"ds-tabs\" role=\"tablist\" aria-label=\"画布视图\"><button class=\"ds-tab\" role=\"tab\" aria-selected=\"true\">创作现场</button><button class=\"ds-tab\" role=\"tab\" aria-selected=\"false\">意图轨迹 <span class=\"ds-count\">3</span></button></nav>",
+      "css": ".ds-tabs{display:flex;gap:25px;height:65px;border-bottom:1px solid var(--line,#e9e5dc)}.ds-tab{font:13px/1.6 var(--font,\"PingFang SC\",\"Microsoft YaHei\",sans-serif);position:relative;border:0;background:transparent;color:var(--muted,#77716f);padding:0 1px;white-space:nowrap;cursor:pointer}.ds-tab[aria-selected=true]{color:var(--purple,#5b426b);font-weight:600}.ds-tab[aria-selected=true]:after{content:\"\";position:absolute;bottom:0;left:0;right:0;background:var(--purple,#5b426b);height:2px}.ds-count{font-size:10px;background:#ece8ef;padding:1px 5px;border-radius:5px;margin-left:4px;color:var(--purple,#5b426b)}.ds-tab:hover{filter:brightness(.97)}.ds-tab:focus-visible{outline:3px solid var(--focus-ring,#a385b8);outline-offset:4px;}.ds-tab:active{transform:translateY(1px)}"
+    },
+    {
+      "name": "Suggested next thought",
+      "kind": "chip",
+      "refersTo": "suggestion-chip",
+      "description": "淡紫建议按钮；不是已确认意图标签。",
+      "html": "<button class=\"ds-suggestion\">保留配色，再试试</button>",
+      "css": ".ds-suggestion{font:10px/1.6 var(--font,\"PingFang SC\",\"Microsoft YaHei\",sans-serif);background:#f4f0f7;border:1px solid #ded3e6;border-radius:7px;color:#725784;padding:6px 9px;cursor:pointer;transition:transform .2s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-suggestion:hover:not(:disabled){filter:brightness(.97)}.ds-suggestion:focus-visible{outline:3px solid var(--focus-ring,#a385b8);outline-offset:4px;}.ds-suggestion:active:not(:disabled){transform:translateY(1px)}.ds-suggestion:disabled{opacity:.5;cursor:wait}@media(prefers-reduced-motion:reduce){.ds-suggestion{transition:none}}"
+    },
+    {
+      "name": "Selected poster paper",
+      "kind": "card",
+      "refersTo": "poster-card",
+      "description": "真实初始 A 方向的矢量作品，带纸边、选择徽章、可扶正状态。",
+      "html": "<button class=\"ds-poster\" aria-pressed=\"true\" aria-label=\"选择方向 A：旧杂志的秩序\"><span class=\"ds-selected\">✓ 就是有点感觉</span><span class=\"ds-mat\"><span class=\"ds-art\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 400\" role=\"img\" aria-label=\"昨日慢递\"><rect width=\"300\" height=\"400\" fill=\"#f3e7cd\"/><rect x=\"15\" y=\"15\" width=\"270\" height=\"370\" fill=\"none\" stroke=\"#8b3d3f\" stroke-width=\".8\"/><text x=\"150\" y=\"37\" font-size=\"7\" fill=\"#8b3d3f\" font-family=\"Arial,sans-serif\" text-anchor=\"middle\" letter-spacing=\"1.6\">A NOTE FROM ANOTHER TIME</text><text x=\"150\" y=\"106\" font-size=\"67\" fill=\"#8b3d3f\" font-family=\"Georgia,serif\" text-anchor=\"middle\" font-style=\"italic\">Yester</text><text x=\"150\" y=\"164\" font-size=\"67\" fill=\"#8b3d3f\" font-family=\"Georgia,serif\" text-anchor=\"middle\" font-style=\"italic\">day.</text><path d=\"M53 302v-48a97 97 0 0 1 194 0v48Z\" fill=\"#c76346\"/><path d=\"M73 302v-47a77 77 0 0 1 154 0v47M94 302v-47a56 56 0 0 1 112 0v47M115 302v-47a35 35 0 0 1 70 0v47\" fill=\"none\" stroke=\"#f3e7cd\" stroke-width=\"1.6\"/><circle cx=\"150\" cy=\"255\" r=\"14\" fill=\"#f3e7cd\"/><text x=\"150\" y=\"337\" font-size=\"17\" fill=\"#8b3d3f\" font-family=\"Arial,PingFang SC,sans-serif\" text-anchor=\"middle\" letter-spacing=\"4\">昨日慢递</text><text x=\"150\" y=\"367\" font-size=\"6.6\" fill=\"#8b3d3f\" font-family=\"Arial,sans-serif\" text-anchor=\"middle\" letter-spacing=\"1.2\">GOOD THINGS TAKE THE LONG WAY.</text></svg></span><span class=\"ds-caption\"><span class=\"ds-letter\">A.</span>旧杂志的秩序</span></span><span class=\"ds-note\">— 先从旧纸张开始</span></button>",
+      "css": ".ds-poster{font:10px/1.6 var(--font,\"PingFang SC\",\"Microsoft YaHei\",sans-serif);position:relative;width:210px;max-width:100%;padding:0;border:0;background:none;color:var(--ink,#39313d);text-align:left;transform:rotate(-4deg);transition:transform .4s var(--ease,cubic-bezier(.16,1,.3,1));cursor:pointer}.ds-poster:hover:not(:disabled){transform:translateY(-8px) rotate(0)}.ds-poster:active:not(:disabled){transform:rotate(0) scale(.98)}.ds-poster:focus-visible{outline:3px solid var(--focus-ring,#a385b8);outline-offset:4px;}.ds-poster:disabled{opacity:.5;cursor:wait}.ds-mat{display:block;background:var(--white,#fffefb);padding:9px 9px 12px;border-radius:2px;box-shadow:0 5px 16px #50413113}.ds-poster[aria-pressed=true] .ds-mat{outline:2px solid #836198;outline-offset:4px}.ds-art{display:block;line-height:0;overflow:hidden}.ds-art svg{width:100%;height:auto;display:block;aspect-ratio:3/4;stroke:none}.ds-caption{display:block;padding:12px 2px 0;line-height:1.5}.ds-letter{font:13px Fraunces,Georgia,serif;margin-right:4px}.ds-selected{position:absolute;right:6px;top:-11px;background:var(--purple,#5b426b);color:#fff;font-size:10px;padding:4px 10px;z-index:2;border-radius:7px}.ds-note{display:block;margin:13px 4px 0;color:#756b74}@media(prefers-reduced-motion:reduce){.ds-poster{transition:none}}"
+    },
+    {
+      "name": "Uncertain companion",
+      "kind": "custom",
+      "refersTo": "companion-panel",
+      "description": "伙伴表情、状态和不加气泡的助手文字。",
+      "html": "<aside class=\"ds-companion\" aria-label=\"与 Maybe 对话\"><div class=\"ds-companion-head\"><span class=\"ds-face\" aria-hidden=\"true\"><i></i><i></i><b></b></span><div><h2>Maybe <span>小未</span></h2><p>● 正在认真地不确定</p></div></div><div class=\"ds-message\"><span class=\"ds-tag\">有点拿不准</span><span class=\"ds-question\" aria-hidden=\"true\">?</span><p>“复古”……我先圈住这个词。<br>是旧杂志，还是小时候那个夏天？</p></div></aside>",
+      "css": ".ds-companion{width:304px;max-width:100%;background:var(--white,#fffefb);color:var(--ink,#39313d);border-left:1px solid var(--line,#e9e5dc);padding:22px}.ds-companion-head{display:flex;align-items:center;gap:11px;padding-bottom:20px;border-bottom:1px solid var(--line,#e9e5dc)}.ds-face{display:block;width:43px;height:43px;border-radius:14px 17px 14px 17px;background:var(--yellow,#f8df86);position:relative;transform:rotate(-7deg);flex:none}.ds-face i{position:absolute;width:3px;height:6px;border-radius:2px;background:#564539;top:14px;left:14px}.ds-face i:nth-child(2){left:26px;top:13px}.ds-face b{position:absolute;width:10px;height:5px;border-bottom:1.7px solid #564539;border-radius:0 0 50% 50%;left:18px;top:24px;transform:rotate(-7deg)}.ds-companion h2{font:600 21px/1.4 Fraunces,Georgia,serif;margin:0}.ds-companion h2 span{font:11px var(--font,\"PingFang SC\",\"Microsoft YaHei\",sans-serif);color:#75647d;margin-left:4px}.ds-companion-head p{font:10px/1.6 var(--font,\"PingFang SC\",\"Microsoft YaHei\",sans-serif);color:#75647d;margin:2px 0 0}.ds-message{padding-top:24px}.ds-tag{font:9px/1.6 var(--font,\"PingFang SC\",\"Microsoft YaHei\",sans-serif);background:#eee6f4;color:#725784;border-radius:4px;padding:0 6px}.ds-question{display:block;font:600 47px/.9 Fraunces,Georgia,serif;color:#8b68a0;margin:12px 0 15px;transform:rotate(-9deg);width:min-content}.ds-message p{font:13px/1.95 var(--font,\"PingFang SC\",\"Microsoft YaHei\",sans-serif);margin:0}"
+    },
+    {
+      "name": "Recoverable intention",
+      "kind": "custom",
+      "refersTo": "journey-entry",
+      "description": "轨迹使用节点、时间、解释与返回旧念头的链接式按钮。",
+      "html": "<article class=\"ds-journey\"><small>02 / 14:20</small><h3>你偏爱了“旧杂志的秩序”</h3><p>草案引发了一次选择；目前还不知道你喜欢的是配色、构图，还是它带来的感觉。</p><button class=\"ds-restore\">从这个念头重新出发</button></article>",
+      "css": ".ds-journey{font:12px/1.9 var(--font,\"PingFang SC\",\"Microsoft YaHei\",sans-serif);padding:0 0 27px 30px;border-left:1px solid #d8c9e0;position:relative;margin-left:7px;max-width:420px;color:var(--ink,#39313d)}.ds-journey:before{content:\"\";position:absolute;left:-5px;top:8px;width:9px;height:9px;border-radius:50%;background:#b598c7;outline:5px solid var(--paper,#f8f7f2)}.ds-journey h3{font-size:15px;margin:5px 0 8px;font-weight:500}.ds-journey p{color:#827384;margin:0 0 10px;overflow-wrap:anywhere}.ds-journey small{font-size:10px;color:#75647d}.ds-restore{font:10px/1.6 var(--font,\"PingFang SC\",\"Microsoft YaHei\",sans-serif);border:0;background:none;color:var(--purple,#5b426b);text-decoration:underline;text-underline-offset:4px;padding:2px 0;cursor:pointer}.ds-restore:hover{filter:brightness(.97)}.ds-restore:focus-visible{outline:3px solid var(--focus-ring,#a385b8);outline-offset:4px;}.ds-restore:active{transform:translateY(1px)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "允许拐弯的工作桌",
+    "overview": "一张奶油色的创作桌，容纳还没命名的想法、斜放的矢量海报、问号批注和会犹豫的伙伴。轻松、愉悦、开放与夸张来自真实的形状、排版和反馈状态；操作区保持安定，作品区负责冒险。\n\n这份记录以 dist/index.html、dist/styles.css 的最终级联和 dist/app.js 为依据，是已经实现的设计世界。Maybe · 未定设计室是临时名字；Cue / Muse 的具体产品尚未确认，因此这里不主张任何产品的精确复刻。对话来自本地规则和脚本，作品来自矢量模板，界面始终保留“暂时理解”的语气。",
+    "keyCharacteristics": [
+      "奶油底与画纸白分出工作桌、作品和对话的层次。",
+      "李子紫控制操作与选择，珊瑚、鼠尾草和浅黄在作品里展开。",
+      "三个略微倾斜的方向、夸张问号与一枚小笑脸构成可辨认的视觉语言。",
+      "偏爱、否定、犹豫、跑偏、纠正与回到旧念头都拥有可见状态。"
+    ],
+    "rules": [
+      {
+        "name": "Stable Desk",
+        "body": "工作区的奶油与李子紫保持稳定；风格与配色变化主要发生在作品中。",
+        "section": "colors"
+      },
+      {
+        "name": "Two Voices",
+        "body": "Fraunces 承担品牌和问号的表情；中文系统字体承担阅读和决策。",
+        "section": "typography"
+      },
+      {
+        "name": "Paper Has Weight",
+        "body": "阴影只表达纸张、聚焦输入和浮层的层次，不给所有容器加浮起效果。",
+        "section": "elevation"
+      },
+      {
+        "name": "Provisional Means Visible",
+        "body": "用待定虚线、文字标签和可恢复轨迹表达暂时理解，不能把系统猜测画成用户已确认的结论。",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do 保持控制区稳定，让颜色、构图和轻微倾斜在作品区承担夸张。",
+      "Do 使用文字、勾选徽章和轮廓共同表达选中；保留键盘焦点和辅助技术标签。",
+      "Do 让问号、微笑和文案对应真实交互状态，而不是无意义的装饰。",
+      "Do 保留低动态偏好、移动端换行和长中文输入的布局余量。",
+      "Do 通过“你改变了想法”与“系统理解错了”的不同记录尊重用户解释。",
+      "Do 在保留配色请求后沿用所选方向的实际三色组合，继续变换构图。"
+    ],
+    "donts": [
+      "Don't 将 Cue / Muse 当成已确认的视觉规格，也不要宣称精确还原。",
+      "Don't 用真实 AI、模型理解或研究结论的口吻描述当前规则演示。",
+      "Don't 把作品 SVG 的填充与描边继承为界面图标样式；海报根 SVG 取消继承描边，内部路径按模板声明。",
+      "Don't 把旧轨迹隐藏成一次成功路径；恢复旧念头后仍保留后来的尝试。",
+      "Don't 给所有海报套同一种圆角卡片；保留薄纸边、画幅与轻微错位。",
+      "Don't 将低动态关闭等同于删掉状态反馈；仍然更新文本、选择、禁用和轨迹。"
+    ]
+  }
+}

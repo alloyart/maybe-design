@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f8f7f2">
+  <meta name="description" content="一个允许没想清楚的创作现场。和会犹豫的 Maybe 一起，让想法边做边变。">
+  <title>Maybe · 未定设计室</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='13' fill='%235a416b'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-size='32' font-family='Georgia' fill='%23fff1b5'%3E?%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css"><script src="app.js" defer></script>
+</head>
+<body>
+<svg class="icon-defs" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+<symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+<symbol id="i-board" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M4 10h16M11 10v10"/></symbol>
+<symbol id="i-path" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 6h7a4 4 0 0 1 0 8H9a4 4 0 0 0 0 8M18 14v2"/></symbol>
+<symbol id="i-reset" viewBox="0 0 24 24"><path d="M4 10a8 8 0 1 1 1 8M4 4v6h6"/></symbol>
+<symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M4 16v4h16v-4"/></symbol>
+<symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 2.6 6.4L21 12l-6.4 2.6L12 21l-2.6-6.4L3 12l6.4-2.6L12 3Z"/></symbol>
+<symbol id="i-smile" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 14c2 3 6 3 8 0M8 8v2M16 8v2"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+</defs></svg>
+<header class="topbar">
+  <a class="brand" href="#" aria-label="Maybe 未定设计室首页"><span class="brand-flower" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M20 4v32M4 20h32M9 9l22 22M31 9 9 31"/></svg></span><span>maybe<span class="brand-question">?</span></span><span class="brand-cn">未定设计室</span></a>
+  <div class="project-name"><span class="tiny-dot"></span>一张还没想好的海报 <span class="saved" id="save-status">随时可以改主意</span></div>
+  <div class="header-actions"><button class="quiet-button" id="guide-button" aria-expanded="false">怎么玩</button><button class="export-button" id="export-button"><svg><use href="#i-download"/></svg><span>带走灵感</span></button></div>
+</header>
+<main class="workspace">
+  <nav class="rail" aria-label="工作区"><div class="rail-top"><button class="rail-button active" data-view="canvas" aria-label="创作现场" title="创作现场"><svg><use href="#i-board"/></svg></button><button class="rail-button" data-view="journey" aria-label="意图轨迹" title="意图轨迹"><svg><use href="#i-path"/></svg><span class="rail-count" id="rail-count">1</span></button></div><button class="rail-button" id="reset-button" aria-label="重新开始" title="重新开始"><svg><use href="#i-reset"/></svg></button><span class="rail-word">STAY CURIOUS</span></nav>
+  <section class="studio" aria-label="创作画布">
+    <div class="studio-toolbar"><div class="view-tabs" role="tablist" aria-label="画布视图"><button role="tab" id="canvas-tab" aria-controls="canvas-view" aria-selected="true" data-view="canvas">创作现场</button><button role="tab" id="journey-tab" aria-controls="journey-view" aria-selected="false" data-view="journey">意图轨迹 <span id="journey-count">1</span></button></div><span class="prototype-label">交互实验 · 脚本演示</span></div>
+    <div id="guide" class="guide" hidden><div><strong>这里没有“正确提示词”。</strong><p>说个模糊的想法 → 偏爱一个草案 → 随时改主意。点「意图轨迹」回看想法如何变化。</p><small>这是可交互的研究概念原型：对话由预设规则驱动，海报为程序化矢量草案。内容仅保存在当前浏览器。</small></div><button class="icon-button" id="close-guide" aria-label="收起玩法"><svg><use href="#i-close"/></svg></button></div>
+    <div id="canvas-view" class="canvas-view" role="tabpanel" aria-labelledby="canvas-tab">
+      <div class="canvas-intro"><div><h1 id="canvas-title">先别急着想清楚<span>。</span></h1><p id="canvas-subtitle">想法嘛，可以一边做，一边长出来。</p></div><div class="round-note" aria-hidden="true">不确定<br>也没关系<svg viewBox="0 0 88 20"><path d="M3 12Q40 1 83 10M5 17q42-10 75-1"/></svg></div></div>
+      <div class="brief-strip"><span class="brief-label" id="brief-label">最初的念头</span><span id="current-prompt">帮我做一张<span class="marked">复古风格</span>的海报</span><button class="icon-button" id="edit-prompt" aria-label="修改创作想法" title="修改创作想法"><svg><use href="#i-arrow"/></svg></button></div>
+      <div class="board-topline"><div class="guess-label"><span class="tiny-dot"></span><span id="guess-label">我先猜了三个方向</span></div><button class="text-button" id="regenerate-button"><svg><use href="#i-reset"/></svg>全都推翻</button></div>
+      <div class="artboard" id="artboard"><div class="question-note" id="question-note"><span class="big-question">?</span><span id="question-copy">复古，是回到哪一年？<small>算了，先试试再说。</small></span><svg class="annotation-arrow" viewBox="0 0 72 50" aria-hidden="true"><path d="M4 4q0 35 55 30M49 25l12 9-10 10"/></svg></div><div class="poster-grid" id="poster-grid"></div><div class="board-footnote"><svg><use href="#i-spark"/></svg><span id="board-footnote">不一定是答案，但可以是个开始。</span></div></div>
+      <div class="intent-ribbon"><div class="ribbon-label"><svg><use href="#i-path"/></svg>想法正在拐弯</div><div class="ribbon-path" id="ribbon-path"><span>复古</span><span class="path-arrow">→</span><span>三种猜测</span><span class="path-arrow">→</span><span class="pending">等你偏心…</span></div><button class="icon-button" data-view="journey" aria-label="查看完整意图轨迹"><svg><use href="#i-arrow"/></svg></button></div>
+    </div>
+    <div id="journey-view" class="journey-view" role="tabpanel" aria-labelledby="journey-tab" hidden><div class="journey-heading"><h1>原来，想法走了这么远<span>。</span></h1><p>有些是误解，有些是新发现。每次改主意，都算数。</p></div><ol id="journey-list" class="journey-list"></ol><button class="soft-button" data-view="canvas">回到创作现场 <svg><use href="#i-arrow"/></svg></button></div>
+    <footer class="studio-footer"><span>MAKE ROOM FOR MAYBE.</span><span id="local-note">示例开场 · 你的变化会自动保留</span></footer>
+  </section>
+  <aside class="companion" aria-label="与 Maybe 对话">
+    <div class="companion-header"><div class="little-face" aria-hidden="true"><i></i><i></i><b></b></div><div><h2>Maybe <span>小未</span></h2><p><span class="status-dot"></span><span id="companion-status">正在认真地不确定</span></p></div><button class="icon-button" id="personality-button" aria-label="听听小未的自我介绍" title="认识小未"><svg><use href="#i-smile"/></svg></button></div>
+    <div class="conversation" id="conversation" aria-live="polite" aria-relevant="additions"></div>
+    <div class="chat-bottom"><div class="play-actions"><button data-action="drift"><svg><use href="#i-spark"/></svg>大胆跑偏</button><button data-action="doubt">再犹豫一下</button><button data-action="smile"><svg><use href="#i-smile"/></svg>笑一个</button></div><form id="prompt-form" class="prompt-form"><label for="prompt-input" class="sr-only">你的创作想法</label><textarea id="prompt-input" rows="3" maxlength="240" placeholder="说点什么，没想清楚也可以…"></textarea><div class="input-footer"><span id="input-hint">改主意，也是一种进展</span><button id="send-button" type="submit" aria-label="发送想法"><svg><use href="#i-up"/></svg></button></div></form><div class="chat-disclaimer">小未可能想岔。也可能刚好带来点新东西。</div></div>
+  </aside>
+</main>
+<div class="toast" id="toast" role="status"></div>
+<dialog id="reset-dialog"><h2>换一张白纸？</h2><p>这次的海报和意图轨迹会被清空。你可以先把喜欢的海报带走。</p><div><button class="soft-button" id="cancel-reset">再留一会儿</button><button class="export-button" id="confirm-reset">重新开始</button></div></dialog>
+</body></html>
